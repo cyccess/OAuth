@@ -68,12 +68,10 @@
     <Compile Include="Common\CacheManager.cs" />
     <Compile Include="Common\EncryptHelper.cs" />
     <Compile Include="Interfaces\ICacheManager.cs" />
-    <Compile Include="Interfaces\IItemService.cs" />
     <Compile Include="Interfaces\IModuleService.cs" />
     <Compile Include="Interfaces\IPermissionService.cs" />
     <Compile Include="Interfaces\IProjectService.cs" />
     <Compile Include="Interfaces\IRoleService.cs" />
-    <Compile Include="ItemService.cs" />
     <Compile Include="ModelDto\RoleRightDto.cs" />
     <Compile Include="ModelDto\UserDto.cs" />
     <Compile Include="Interfaces\IUserService.cs" />

@@ -52,7 +52,6 @@
   <ItemGroup>
     <Compile Include="DataModule.cs" />
     <Compile Include="BaseRepository.cs" />
-    <Compile Include="Mapping\ItemMap.cs" />
     <Compile Include="Mapping\ModuleMap.cs" />
     <Compile Include="Mapping\ModulePermissionMap.cs" />
     <Compile Include="Mapping\PermissionMap.cs" />

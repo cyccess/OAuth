@@ -44,7 +44,6 @@
     <Compile Include="IEntity.cs" />
     <Compile Include="IRepository\IUserRepository.cs" />
     <Compile Include="Model\AggregateRoot.cs" />
-    <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Module.cs" />
     <Compile Include="Model\ModulePermission.cs" />
     <Compile Include="Model\Permission.cs" />
