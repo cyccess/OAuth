@@ -23,10 +23,6 @@ namespace OAuth.Data.Mapping
             Property(t => t.LastLogonDate).HasColumnName("LastAccess_datetime");
             Property(t => t.DigitalCertificate).HasColumnName("DigitalCertificate_nvarchar");
 
-            Property(t => t.Email).HasColumnName("Email_nvarchar");
-            Property(t => t.UserFlag).HasColumnName("UserFlag_tinyint");
-
-            
             //关系一对多，一个用户可拥有多个角色
             HasMany<UserRole>(u => u.UserRoles).WithRequired();
 

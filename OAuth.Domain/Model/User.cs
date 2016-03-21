@@ -22,28 +22,8 @@ namespace OAuth.Domain.Model
 
         public DateTime AddDate { get; set; }
 
-        public UserFlag UserFlag { get; set; }
-
-        public string Email { get; set; }
-
         public virtual ICollection<UserRole> UserRoles { get; set; }
 
         public virtual ICollection<UserProject> UserProjects { get; set; }
-    }
-
-    /// <summary>
-    /// 用户模型
-    /// </summary>
-    public enum UserFlag : byte
-    {
-        /// <summary>
-        /// 采购商
-        /// </summary>
-        Buyer,
-
-        /// <summary>
-        /// 供应商
-        /// </summary>
-        Supplier
     }
 }

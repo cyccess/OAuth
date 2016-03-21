@@ -160,6 +160,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\OAuth.ldf">
+      <DependentUpon>OAuth.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\OAuth.mdf" />
     <Content Include="assets\bower_components\angular\angular-animate.min.js.map" />
     <Content Include="assets\bower_components\angular\angular-route.min.js.map" />
     <Content Include="assets\bower_components\angular\angular-strap.min.js.map" />
@@ -1337,9 +1341,7 @@
     <Content Include="Views\Project\ProjectDropdownMenu.cshtml" />
     <Content Include="Views\Home\TestSqlQuery.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

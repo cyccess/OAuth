@@ -101,8 +101,7 @@ namespace OAuth.Service
             entity.UserName = user.UserName;
             entity.FullName = user.FullName;
             entity.PhoneNumber = user.PhoneNumber;
-            entity.Email = user.Email;
-                
+
             _unitOfWork.RegisterDirty(entity);
             _unitOfWork.Commit();
 
